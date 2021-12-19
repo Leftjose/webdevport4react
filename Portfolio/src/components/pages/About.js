@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+// import './About.css';
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      {/* CSS adding  */}
+      <h1 style={{color: "red"}}>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
